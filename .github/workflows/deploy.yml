@@ -35,11 +35,7 @@ jobs:
       # subpath resolves without any hardcoded repo name.
       - run: npm run build
 
-      # enablement lets the very first run turn Pages on with the Actions
-      # source, so a fresh repo needs no manual settings step.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
