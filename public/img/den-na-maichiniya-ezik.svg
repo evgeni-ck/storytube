@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" aria-hidden="true">
+<rect width="320" height="180" fill="#e2ece9"/><ellipse cx="80" cy="200" rx="200" ry="60" fill="#d0e1dc"/>
+<ellipse cx="270" cy="205" rx="180" ry="55" fill="#c0d6d0"/><rect x="45" y="40" width="110" height="60" rx="14" fill="#3a86ff"/>
+<polygon points="59,98 75,98 55,114" fill="#3a86ff"/><text x="100" y="80" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">А</text><rect x="165" y="70" width="110" height="60" rx="14" fill="#e63946"/>
+<polygon points="261,128 245,128 265,144" fill="#e63946"/><text x="220" y="110" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Я</text><path transform="translate(160 40) scale(1.2)" fill="#ff8fab" d="M0 8 C-12 -2 -12 -14 -3 -14 C1 -14 0 -10 0 -10 C0 -10 -1 -14 3 -14 C12 -14 12 -2 0 8Z"/><text x="12" y="172" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#22333b" text-anchor="start">БЪЛГАРСКИ ЕЗИК</text>
+</svg>

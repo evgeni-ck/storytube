@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" aria-hidden="true">
+<rect width="320" height="180" fill="#bde0fe"/><circle cx="60" cy="40" r="18" fill="#f4d35e"/>
+<circle cx="60" cy="40" r="26" fill="#f4d35e" opacity="0.25"/><g transform="translate(240 40) scale(0.9)" fill="#ffffff">
+<ellipse cx="0" cy="0" rx="22" ry="12"/><circle cx="-12" cy="-4" r="11"/><circle cx="6" cy="-8" r="14"/></g><ellipse cx="80" cy="200" rx="200" ry="60" fill="#8fbf9f"/>
+<ellipse cx="270" cy="205" rx="180" ry="55" fill="#2a9d8f"/><rect x="120" y="70" width="80" height="80" fill="#c9a27e"/>
+<rect x="110" y="60" width="100" height="14" fill="#a67c52"/>
+<rect x="112" y="48" width="14" height="14" fill="#a67c52"/><rect x="140" y="48" width="14" height="14" fill="#a67c52"/><rect x="168" y="48" width="14" height="14" fill="#a67c52"/><rect x="196" y="48" width="14" height="14" fill="#a67c52"/>
+<path d="M148 150 v-30 a12 12 0 0 1 24 0 v30Z" fill="#22333b"/><rect x="150" y="90" width="8" height="14" fill="#22333b"/><rect x="176" y="90" width="8" height="14" fill="#22333b"/><rect x="158" y="10" width="4" height="40" rx="2" fill="#8d5524"/><rect x="162" y="12" width="40" height="8.666666666666666" fill="#ffffff"/>
+<rect x="162" y="20.666666666666664" width="40" height="8.666666666666666" fill="#2a9d8f"/>
+<rect x="162" y="29.333333333333332" width="40" height="8.666666666666666" fill="#e63946"/><text x="12" y="172" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#22333b" text-anchor="start">1908</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" aria-hidden="true">
+<rect width="320" height="180" fill="#bde0fe"/><circle cx="50" cy="40" r="18" fill="#f4d35e"/>
+<circle cx="50" cy="40" r="26" fill="#f4d35e" opacity="0.25"/><ellipse cx="80" cy="200" rx="200" ry="60" fill="#52b788"/>
+<ellipse cx="270" cy="205" rx="180" ry="55" fill="#2a9d8f"/><path transform="translate(110 120) scale(1.1)" fill="#e63946" d="M0 -22 C12 -22 16 -4 16 6 C16 16 9 24 0 24 C-9 24 -16 16 -16 6 C-16 -4 -12 -22 0 -22Z"/><path transform="translate(160 112) scale(1.2)" fill="#3a86ff" d="M0 -22 C12 -22 16 -4 16 6 C16 16 9 24 0 24 C-9 24 -16 16 -16 6 C-16 -4 -12 -22 0 -22Z"/><path transform="translate(212 120) scale(1.1)" fill="#f4d35e" d="M0 -22 C12 -22 16 -4 16 6 C16 16 9 24 0 24 C-9 24 -16 16 -16 6 C-16 -4 -12 -22 0 -22Z"/><circle cx="160" cy="104" r="4" fill="#ffffff"/><circle cx="152" cy="118" r="3" fill="#ffffff"/><circle cx="168" cy="120" r="3" fill="#ffffff"/>
+<path d="M100 112 h20 M100 122 h20" stroke="#ffffff" stroke-width="3"/>
+<path d="M203 108 l6 6 l6 -6 l6 6" stroke="#e63946" stroke-width="3" fill="none"/><g transform="translate(40 140) scale(1)">
+<rect x="-1.5" y="0" width="3" height="22" fill="#52b788"/>
+<circle cx="0" cy="-6" r="5" fill="#ff8fab"/><circle cx="6" cy="0" r="5" fill="#ff8fab"/><circle cx="-6" cy="0" r="5" fill="#ff8fab"/><circle cx="0" cy="6" r="5" fill="#ff8fab"/>
+<circle cx="0" cy="0" r="3.5" fill="#f4d35e"/></g><g transform="translate(280 138) scale(1)">
+<rect x="-1.5" y="0" width="3" height="22" fill="#52b788"/>
+<circle cx="0" cy="-6" r="5" fill="#ffffff"/><circle cx="6" cy="0" r="5" fill="#ffffff"/><circle cx="-6" cy="0" r="5" fill="#ffffff"/><circle cx="0" cy="6" r="5" fill="#ffffff"/>
+<circle cx="0" cy="0" r="3.5" fill="#f4d35e"/></g><g transform="translate(260 150) scale(0.8)">
+<rect x="-1.5" y="0" width="3" height="22" fill="#52b788"/>
+<circle cx="0" cy="-6" r="5" fill="#f4d35e"/><circle cx="6" cy="0" r="5" fill="#f4d35e"/><circle cx="-6" cy="0" r="5" fill="#f4d35e"/><circle cx="0" cy="6" r="5" fill="#f4d35e"/>
+<circle cx="0" cy="0" r="3.5" fill="#f4d35e"/></g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" aria-hidden="true">
+<rect width="320" height="180" fill="#bde0fe"/><circle cx="280" cy="35" r="16" fill="#f4d35e"/>
+<circle cx="280" cy="35" r="24" fill="#f4d35e" opacity="0.25"/><ellipse cx="80" cy="200" rx="200" ry="60" fill="#52b788"/>
+<ellipse cx="270" cy="205" rx="180" ry="55" fill="#2a9d8f"/><path d="M40 60 h70 v30 a10 10 0 0 0 0 20 v30 h-70Z" fill="#2a9d8f"/>
+<path d="M150 60 h70 v80 h-70 v-30 a10 10 0 0 1 0 -20Z" fill="#e63946"/>
+<path d="M112 100 a10 10 0 0 1 20 0 a10 10 0 0 1 -20 0" fill="#ffffff"/><path transform="translate(130 45) scale(1.4)" fill="#e63946" d="M0 8 C-12 -2 -12 -14 -3 -14 C1 -14 0 -10 0 -10 C0 -10 -1 -14 3 -14 C12 -14 12 -2 0 8Z"/><text x="12" y="165" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#22333b" text-anchor="start">СЪЕДИНЕНИЕТО ПРАВИ СИЛАТА</text>
+</svg>

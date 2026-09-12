@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" aria-hidden="true">
+<rect width="320" height="180" fill="#bde0fe"/><circle cx="60" cy="40" r="18" fill="#f4d35e"/>
+<circle cx="60" cy="40" r="26" fill="#f4d35e" opacity="0.25"/><ellipse cx="80" cy="200" rx="200" ry="60" fill="#52b788"/>
+<ellipse cx="270" cy="205" rx="180" ry="55" fill="#2a9d8f"/><ellipse cx="180" cy="120" rx="80" ry="14" fill="#8d99ae"/><rect x="100" y="70" width="160" height="50" fill="#adb5bd"/><ellipse cx="180" cy="70" rx="80" ry="14" fill="#ced4da"/>
+<rect x="150" y="30" width="60" height="42" fill="#8d99ae"/><rect x="170" y="14" width="20" height="18" fill="#6c757d"/><text x="180" y="100" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#22333b" text-anchor="middle">ПАНОРАМА</text><g transform="translate(60 140)"><circle cx="-12" cy="16" r="10" fill="#8d5524"/><circle cx="14" cy="16" r="10" fill="#8d5524"/><rect x="-24" y="-8" width="56" height="16" rx="8" fill="#22333b" transform="rotate(-20)"/></g><text x="12" y="172" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#22333b" text-anchor="start">1877</text>
+</svg>

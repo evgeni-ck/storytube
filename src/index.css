@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+/* Tailwind v4 points `dark:` at prefers-color-scheme by default. We drive the
+   theme from a class on <html> instead, so the toggle wins over the OS. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Palette lives in plain custom properties so `.dark` can override it, and
+   `@theme inline` makes the utilities emit `var(--st-*)` rather than baking the
+   light value in at build time. Without `inline` the tokens would resolve once
+   on :root and never flip. Values follow YouTube's own light/dark palettes. */
+:root {
+  --st-page: #f9f9f9;
+  --st-card: #ffffff;
+  --st-card-hover: #f2f2f2;
+  --st-edge: #e5e5e5;
+  --st-ink: #0f0f0f;
+  --st-ink-2: #606060;
+  --st-chip: #f2f2f2;
+  --st-chip-hover: #e5e5e5;
+  --st-chip-active: #0f0f0f;
+  --st-chip-active-label: #ffffff;
+  --st-chrome: #ffffff;
+  --st-chrome-ink: #0f0f0f;
+  --st-chrome-hover: rgba(0, 0, 0, 0.08);
+  --st-search: #ffffff;
+  --st-search-edge: #cccccc;
+  --st-search-ink: #0f0f0f;
+  --st-search-placeholder: #888888;
+  --st-skeleton: #e5e5e5;
+  --st-skeleton-2: #f0f0f0;
+  --st-cal-today: #0f0f0f;
+}
+
+.dark {
+  --st-page: #0f0f0f;
+  --st-card: #212121;
+  --st-card-hover: #272727;
+  --st-edge: #3f3f3f;
+  --st-ink: #f1f1f1;
+  --st-ink-2: #aaaaaa;
+  --st-chip: #272727;
+  --st-chip-hover: #3f3f3f;
+  --st-chip-active: #f1f1f1;
+  --st-chip-active-label: #0f0f0f;
+  --st-chrome: #0f0f0f;
+  --st-chrome-ink: #f1f1f1;
+  --st-chrome-hover: rgba(255, 255, 255, 0.1);
+  --st-search: #121212;
+  --st-search-edge: #303030;
+  --st-search-ink: #f1f1f1;
+  --st-search-placeholder: #888888;
+  --st-skeleton: #272727;
+  --st-skeleton-2: #3f3f3f;
+  --st-cal-today: #f1f1f1;
+}
+
+@theme inline {
+  --color-page: var(--st-page);
+  --color-card: var(--st-card);
+  --color-card-hover: var(--st-card-hover);
+  --color-edge: var(--st-edge);
+  --color-ink: var(--st-ink);
+  --color-ink-2: var(--st-ink-2);
+  --color-chip: var(--st-chip);
+  --color-chip-hover: var(--st-chip-hover);
+  --color-chip-active: var(--st-chip-active);
+  --color-chip-active-label: var(--st-chip-active-label);
+  --color-chrome: var(--st-chrome);
+  --color-chrome-ink: var(--st-chrome-ink);
+  --color-chrome-hover: var(--st-chrome-hover);
+  --color-search: var(--st-search);
+  --color-search-edge: var(--st-search-edge);
+  --color-search-ink: var(--st-search-ink);
+  --color-search-placeholder: var(--st-search-placeholder);
+  --color-skeleton: var(--st-skeleton);
+  --color-skeleton-2: var(--st-skeleton-2);
+  --color-cal-today: var(--st-cal-today);
+
+  /* Fixed literals: YouTube red is the same in both themes, text on it is
+     always white, and the date badge on a thumbnail is always a dark pill
+     because it sits on an image, not on the page. */
+  --color-accent: #ff0000;
+  --color-accent-hover: #cc0000;
+  --color-on-accent: #ffffff;
+  --color-badge: rgba(0, 0, 0, 0.8);
+  --color-search-focus: #1c62b9;
+
+  /* YouTube's stack. Roboto is used when installed, otherwise Arial - no
+     webfont download, the site must work fully offline once cached. */
+  --font-sans: Roboto, Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-color: var(--st-page);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--st-page);
+  color: var(--st-ink);
+  font-family: var(--font-sans);
+}
+
+/* Search input: strip every ring a browser or UA stylesheet might draw. The
+   wrapper owns the focus affordance via :focus-within, and `outline: none`
+   alone is not enough - the default ring is a box-shadow in some engines. */
+.st-input {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  /* Without this the caret falls back to the OS accent colour - blue on
+     Windows - which has nothing to do with the theme. */
+  caret-color: var(--color-accent);
+}
+
+.st-input:focus,
+.st-input:focus-visible {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+
+.st-input::-webkit-search-cancel-button,
+.st-input::-webkit-search-decoration {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+@keyframes st-pulse {
+  0%,
+  100% {
+    background-color: var(--st-skeleton);
+  }
+  50% {
+    background-color: var(--st-skeleton-2);
+  }
+}
+
+.st-pulse {
+  animation: st-pulse 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .st-pulse {
+    animation: none;
+    background-color: var(--st-skeleton);
+  }
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}

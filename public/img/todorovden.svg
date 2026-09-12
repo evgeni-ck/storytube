@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" aria-hidden="true">
+<rect width="320" height="180" fill="#bde0fe"/><circle cx="60" cy="40" r="18" fill="#f4d35e"/>
+<circle cx="60" cy="40" r="26" fill="#f4d35e" opacity="0.25"/><ellipse cx="80" cy="200" rx="200" ry="60" fill="#52b788"/>
+<ellipse cx="270" cy="205" rx="180" ry="55" fill="#2a9d8f"/><g transform="translate(150 110) scale(1)" fill="#8d5524">
+<ellipse cx="0" cy="0" rx="40" ry="20"/>
+<path d="M28 -8 L44 -46 L60 -40 L58 -20 L44 -12Z"/><circle cx="56" cy="-42" r="9"/>
+<rect x="-34" y="10" width="9" height="34" rx="4"/><rect x="-14" y="12" width="9" height="34" rx="4"/><rect x="10" y="12" width="9" height="34" rx="4"/><rect x="28" y="10" width="9" height="34" rx="4"/>
+<path d="M-38 -6 q-16 4 -18 26" stroke="#8d5524" stroke-width="7" fill="none" stroke-linecap="round"/>
+<circle cx="60" cy="-46" r="2" fill="#ffffff"/></g><path d="M48 140 a24 24 0 1 1 48 0 a6 6 0 0 1 -12 0 a12 12 0 1 0 -24 0 a6 6 0 0 1 -12 0Z" fill="#e0a458"/><text x="12" y="172" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#22333b" text-anchor="start">КОНСКИ ВЕЛИКДЕН</text>
+</svg>

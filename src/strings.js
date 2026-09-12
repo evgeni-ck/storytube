@@ -1,0 +1,47 @@
+// Every user-facing string in one place.
+export const T = {
+  siteName: 'StoryTube',
+  siteTitle: 'StoryTube – Български празници',
+  searchPlaceholder: 'Търси празник',
+  searchLabel: 'Търси празници и дати',
+  all: 'Всички',
+  clear: 'Изчисти',
+  filterGroup: 'Филтрирай по категория',
+  filterBy: (label) => `Филтрирай по ${label}`,
+  calendar: 'Календар',
+  calendarLabel: 'Календар на празниците',
+  showCalendar: 'Покажи календара',
+  hideCalendar: 'Скрий календара',
+  prevMonth: 'Предишен месец',
+  nextMonth: 'Следващ месец',
+  goToday: 'Днес',
+  clearDay: 'Изчисти деня',
+  noHolidaysOnDay: 'Няма празник на този ден.',
+  today: 'Днес',
+  tomorrow: 'Утре',
+  inDays: (n) => `след ${n} ${n === 1 ? 'ден' : 'дни'}`,
+  yearsAgo: (n) => `преди ${n} ${n === 1 ? 'година' : 'години'}`,
+  movableNote: 'Датата се мени всяка година',
+  back: 'Назад',
+  backToAll: 'Всички празници',
+  funFact: 'Знаеш ли, че…?',
+  photos: 'Снимки',
+  photoSource: 'Източник',
+  related: 'Още празници',
+  toLight: 'Светла тема',
+  toDark: 'Тъмна тема',
+  loading: 'Зареждане на празниците…',
+  empty: 'Няма празници по това търсене.',
+  emptyHint: 'Опитайте с друга дума или изчистете филтрите.',
+  error: 'Празниците не можаха да се заредят.',
+  errorHint: 'Проверете връзката и опреснете страницата.',
+  notFound: 'Този празник не беше намерен.',
+  notFoundHint: 'Може би адресът е сгрешен. Върнете се към всички празници.',
+  inCategories: (labels) => ` в ${labels.join(', ')}`,
+  onDay: (label) => ` на ${label}`,
+}
+
+// Bulgarian counted form: 1 празник, but 2+ празника.
+export function holidayCount(n) {
+  return `${n} ${n === 1 ? 'празник' : 'празника'}`
+}
