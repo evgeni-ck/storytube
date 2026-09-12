@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "check": "node scripts/check-holidays.mjs",
+    "images": "node scripts/use-images.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

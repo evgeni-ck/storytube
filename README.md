@@ -13,6 +13,7 @@ npm run build     # dist/
 npm run preview   # serves dist/
 npm run lint      # oxlint
 npm run check     # validates public/holidays.json
+npm run images    # prefer public/img/<slug>.jpg|png|webp over the .svg placeholders
 ```
 
 Node 20.19+ (CI uses 24). React 19, Vite 8, Tailwind CSS v4 (`@tailwindcss/vite`, no `tailwind.config`).
@@ -55,7 +56,8 @@ Hash routing (`#/` and `#/praznik/<slug>`), implemented in `src/hooks/useHashRou
 
 ## Картинки / Images
 
-- `public/img/<slug>.svg` — flat 16:9 illustrations, one per entry, used as both thumbnail and hero. A missing file falls back to a category-coloured block.
+- `public/img/<slug>.svg` — flat 16:9 placeholders, one per entry, used as both thumbnail and hero. A missing file falls back to a category-coloured block.
+- `public/img/<slug>.jpg|png|webp` — realistic painted illustrations generated with an AI image tool from the prompts in `docs/image-prompts.md`. Drop a file in and run `npm run images`: it repoints `thumbnail` at the raster file (or back at the SVG when none exists).
 - `public/img/photos/` — public-domain / CC photos from Wikimedia Commons for the detail pages. Every photo carries `caption`, `credit`, `license` and `sourceUrl` in the data; CC BY-SA works need the author named. Never hot-link.
 
 ## Тема / Theme
