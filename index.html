@@ -25,7 +25,7 @@
       #st-shell {
         display: flex;
         align-items: center;
-        gap: 6px;
+        gap: 8px;
         height: 56px;
         padding: 0 16px;
         box-sizing: border-box;
@@ -35,6 +35,9 @@
         font-size: 20px;
         font-weight: 700;
         letter-spacing: -0.5px;
+      }
+      @media (max-width: 639px) {
+        .st-shell-name { display: none; }
       }
       .dark #st-shell {
         background: #0f0f0f;
@@ -48,11 +51,15 @@
          exactly so the swap does not shift layout. -->
     <div id="root">
       <div id="st-shell">
-        <svg width="30" height="21" viewBox="0 0 30 21" aria-hidden="true">
-          <rect width="30" height="21" rx="6" fill="#ff0000" />
-          <path d="M12 6l8 4.5-8 4.5z" fill="#ffffff" />
+        <svg width="30" height="24" viewBox="0 0 30 24" aria-hidden="true">
+          <defs><clipPath id="st-shell-clip"><rect x="1.5" y="4" width="27" height="18.5" rx="4" /></clipPath></defs>
+          <g clip-path="url(#st-shell-clip)">
+            <rect x="1.5" y="4" width="27" height="6.5" fill="#ffffff" /><rect x="1.5" y="10.5" width="27" height="6" fill="#00966e" /><rect x="1.5" y="16.5" width="27" height="6" fill="#d62612" />
+          </g>
+          <rect x="1.5" y="4" width="27" height="18.5" rx="4" fill="none" stroke="currentColor" stroke-width="1.6" />
+          <rect x="8" y="1" width="3" height="6" rx="1.5" fill="currentColor" /><rect x="19" y="1" width="3" height="6" rx="1.5" fill="currentColor" />
         </svg>
-        <span>StoryTube</span>
+        <span class="st-shell-name">StoryTube</span>
       </div>
       <noscript>
         <p style="padding:16px;font-family:Roboto,Arial,Helvetica,sans-serif">
